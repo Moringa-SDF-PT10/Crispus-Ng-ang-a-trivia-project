@@ -1,0 +1,119 @@
+#quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#startButton {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: larger;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    position: absolute;
+    padding: 15px 30px;
+    cursor: pointer;
+    bottom: 7%;
+    left: 50%;
+    border: none;
+    border-radius: 8px;
+    transform: translateX(-50%);
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+#startButton:hover {
+background-color: #0056B3;
+}
+
+.cover-page {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1 {
+    font-family:  "Bungee Spice", sans-serif;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    padding: 30px 30px ;
+}
+
+#quiz-container {
+  max-width: 600px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  margin-left: auto;
+  margin-right: 500;
+  width: 80%;
+  justify-content: center;
+  background-color: green;
+  margin-bottom: 500px;
+}
+
+#quiz-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ca14ae;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#quiz-container button:hover {
+  background-color: #bf13e1;
+}
+#score-board {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+#missed-questions {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #fdecea;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+#missed-questions h3 {
+  color: #d9534f;
+  margin-bottom: 10px;
+}
+
+#missed-questions p {
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  color: #380303;
+}
