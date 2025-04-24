@@ -28,3 +28,4 @@ code .
 - Answer the questions displayed on the screen
 - View your score and correct answers for missed questions at the end 
 - Use the "Restart Quiz" button to play again
+- Use the "Restart Quiz" button to play
